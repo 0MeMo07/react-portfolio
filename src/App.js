@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import { Helmet } from 'react-helmet';
+import { Divider } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
-function App() {
+const App = () => {
+  const theme = useTheme();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>React Editable Portfolio</title>
+      </Helmet>
+      <Home />
+      <Divider sx={{  position: 'relative', backgroundColor: theme.palette.divider.main }} />
+      <About />
+      <Divider sx={{  position: 'relative', backgroundColor: theme.palette.divider.main }} />
+      <Contact />
+      <Footer /> 
+    </>
   );
-}
+};
 
 export default App;
