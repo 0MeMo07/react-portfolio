@@ -36,7 +36,7 @@ Follow these steps to set up and run the project locally:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/0memo08/react-portfolio.git
+    git clone https://github.com/0memo07/react-portfolio.git
     ```
 
 2. **Install Dependencies:**
