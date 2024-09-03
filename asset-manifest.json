@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.55f01203.js",
-    "index.html": "/react-portfolio/index.html",
-    "main.55f01203.js.map": "/react-portfolio/static/js/main.55f01203.js.map"
+    "main.js": "/static/js/main.55f01203.js",
+    "index.html": "/index.html",
+    "main.55f01203.js.map": "/static/js/main.55f01203.js.map"
   },
   "entrypoints": [
     "static/js/main.55f01203.js"
